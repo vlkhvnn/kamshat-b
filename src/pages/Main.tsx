@@ -11,7 +11,7 @@ const MainPage = ({ setSelectedPage }: Props) => {
   const isAboveMediumScreens = useMediaQuery("(min-width:1060px)");
 
   return (
-    <section id="about" className="gap-16 bg-gray-20 py-10 md:h-full md:pb-0">
+    <section id="main" className="min-h-screen bg-gray-20 py-10 md:pb-0">
       {/* IMAGE AND MAIN HEADER */}
       <motion.div
         className="mx-auto w-5/6 items-center justify-center md:flex md:h-5/6"
@@ -47,7 +47,7 @@ const MainPage = ({ setSelectedPage }: Props) => {
 
           {/* WELCOME TEXT */}
           <motion.div
-            className="mt-8 text-lg leading-8"
+            className="mt-8 mb-16 text-lg leading-8"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.5 }}

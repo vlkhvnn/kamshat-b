@@ -75,7 +75,7 @@ const AppointmentPage = ({ setSelectedPage }: Props) => {
 
           <div className="bg-white p-8 rounded-lg shadow-md border-l-4 border-primary-500">
             <h3 className="text-2xl font-semibold mb-4">Записаться на психологическую/арт-терапевтическую сессию (офлайн/онлайн)</h3>
-            <p className="text-xl font-semibold mt-4">Наиболее частые запросы на нумерологическую сессию:</p>
+            <p className="text-xl font-semibold mt-4">Наиболее частые запросы Клиентов:</p>
             <ul className="list-disc mt-4 ml-4 text-gray-700 text-lg leading-relaxed space-y-4">
               {[
                 { title: "Личностное развитие", description: "\n    поиск смысла жизни и личных целей, раскрытие потенциала и талантов, работа с низкой самооценкой и неуверенностью, развитие эмоционального интеллекта, умение принимать важные решения и брать ответственность за свою жизнь" },
