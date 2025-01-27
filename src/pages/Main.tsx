@@ -17,8 +17,14 @@ const MainPage = ({ setSelectedPage }: Props) => {
         className="mx-auto w-5/6 items-center justify-center md:flex md:h-5/6"
         onViewportEnter={() => setSelectedPage(SelectedPage.Main)}
       >
+        {/* IMAGE */}
+        {!isAboveMediumScreens && (
+          <div className="flex basis-4/5 justify-center mt-16 md:z-10 md:ml-40 md:mt-16 md:justify-items-end order-1 md:order-2">
+            <img alt="home-heroImage" src={HeroImage} />
+            </div>
+          )}
         {/* MAIN HEADER */}
-        <div className="z-10 mt-32 md:basis-3/5">
+        <div className={`z-10 ${isAboveMediumScreens ? 'mt-32' : 'mt-12'} md:basis-3/5`}>
           {/* HEADINGS */}
           <motion.div
             className="md:-mt-20"
@@ -83,11 +89,11 @@ const MainPage = ({ setSelectedPage }: Props) => {
         </div>
 
         {/* IMAGE */}
-        <div
-          className="flex basis-4/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end"
-        >
-          <img alt="home-heroImage" src={HeroImage} />
-        </div>
+        {isAboveMediumScreens && (
+          <div className="flex basis-4/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end order-1 md:order-2">
+            <img alt="home-heroImage" src={HeroImage} />
+            </div>
+          )}
       </motion.div>
     </section>
   );
