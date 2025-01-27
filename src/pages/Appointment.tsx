@@ -38,12 +38,12 @@ const AppointmentPage = ({ setSelectedPage }: Props) => {
             visible: { opacity: 1, y: 0 },
           }}
         >
-          <HText>Виды консультации</HText>
+          <HText>Виды консультаций</HText>
         </motion.div>
 
         <div className="mt-10 mx-auto w-4/5 grid grid-cols-1 md:grid-cols-2 gap-10">
           <div className="bg-white p-8 rounded-lg shadow-md border-l-4 border-primary-500">
-            <h3 className="text-2xl font-semibold mb-4">Получить на нумерологическую сессию </h3>
+            <h3 className="text-2xl font-semibold mb-4">Нумерологическая сессия</h3>
             <p className="text-gray-700 text-lg leading-relaxed ">
               Нумерологический расчет производится исключительно по цифровым данным Клиента и оформленному запросу. За одну сессию (продолжительность – 50 минут) разбираю детально один запрос Клиента. Это поможет глубже понять проблематику, обозначить варианты решения задачи. Для закрепления результата по окончанию сессии на почту Клиента отправляется практики для самостоятельной работы.
             </p>
@@ -71,10 +71,18 @@ const AppointmentPage = ({ setSelectedPage }: Props) => {
                 </li>
               ))}
             </ul>
+            <a
+            href="https://wa.me/77080546175?text=Хочу%20получить%20нумерологическую%20сессию"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-cream-100 drop-shadow mt-6 inline-block bg-primary-500 font-bold py-3 px-6 rounded-lg hover:bg-primary-300 transition"
+            >
+              Записаться на нумерологическую сессию (только онлайн, расчет производится исключительно по оформленному запросу Клиентам)
+            </a>
           </div>
 
           <div className="bg-white p-8 rounded-lg shadow-md border-l-4 border-primary-500">
-            <h3 className="text-2xl font-semibold mb-4">Записаться на психологическую/арт-терапевтическую сессию (офлайн/онлайн)</h3>
+            <h3 className="text-2xl font-semibold mb-4">Психологическая/Арт-терапевтическая сессия</h3>
             <p className="text-xl font-semibold mt-4">Наиболее частые запросы Клиентов:</p>
             <ul className="list-disc mt-4 ml-4 text-gray-700 text-lg leading-relaxed space-y-4">
               {[
@@ -97,6 +105,14 @@ const AppointmentPage = ({ setSelectedPage }: Props) => {
                 </li>
               ))}
             </ul>
+            <a
+            href="https://wa.me/77080546175?text=Хочу%20получить%психологическую/арт-терапевтическую%20сессию"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-cream-100 drop-shadow mt-6 inline-block bg-primary-500 font-bold py-3 px-6 rounded-lg hover:bg-primary-300 transition"
+            >
+              Записаться на психологическую/арт-терапевтическую сессию (офлайн/онлайн)
+            </a>
           </div>
         </div>
       </motion.div>

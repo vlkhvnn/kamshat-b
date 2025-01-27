@@ -37,6 +37,9 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                         className={({ isActive }) =>
                         isActive ? "text-primary-500 font-bold" : "text-gray-700"
                         }
+                        onClick={() => {
+                          window.scrollTo({ top: 0, behavior: 'smooth' });
+                        }} 
                     >
                     {item.label}
                   </NavLink>
@@ -154,6 +157,10 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                     className={({ isActive }) =>
                     isActive ? "text-primary-500 font-bold" : "text-gray-700"
                     }
+                    onClick={() => {
+                      setIsMenuToggled(false);
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }}   
                 >
                 {item.label}
                 </NavLink>
