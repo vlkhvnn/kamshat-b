@@ -75,7 +75,7 @@ const AppointmentPage = ({ setSelectedPage }: Props) => {
             href="https://wa.me/77080546175?text=Хочу%20получить%20нумерологическую%20сессию"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-cream-100 drop-shadow mt-6 inline-block bg-primary-500 font-bold py-3 px-6 rounded-lg hover:bg-primary-300 transition"
+            className="bg-cream-100 drop-shadow mt-6 inline-block bg-primary-500 font-bold py-3 px-6 rounded-lg hover:bg-primary-300 transition text-center"
             >
               Записаться на нумерологическую сессию (только онлайн, расчет производится исключительно по оформленному запросу Клиентам)
             </a>
