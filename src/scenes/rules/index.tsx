@@ -10,7 +10,7 @@ const Rules = ({ setSelectedPage }: Props) => {
   return (
     <section id="rules" className="w-full bg-gray-20 py-20">
       <motion.div
-        onViewportEnter={() => setSelectedPage(SelectedPage.Rules)}
+        onViewportEnter={() => setSelectedPage(SelectedPage.Programs)}
       >
         <motion.div
           className="mx-auto w-4/5 text-center"

@@ -72,7 +72,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
   return (
     <section id="services" className="mx-auto min-h-full w-5/6 py-20">
       <motion.div
-        onViewportEnter={() => setSelectedPage(SelectedPage.Services)}
+        onViewportEnter={() => setSelectedPage(SelectedPage.Appointment)}
       >
         {/* HEADER */}
         <motion.div

@@ -47,7 +47,7 @@ const NumericalInfo = ({ setSelectedPage }: Props) => {
   return (
     <section id="numericalInfo" className="mx-auto w-5/6 py-24">
       <motion.div
-        onViewportEnter={() => setSelectedPage(SelectedPage.NumericalInfo)}
+        onViewportEnter={() => setSelectedPage(SelectedPage.Blog)}
       >
         <motion.div
           className="text-center mb-16"
