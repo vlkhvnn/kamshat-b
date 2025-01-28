@@ -14,18 +14,18 @@ const ProgramsPage = ({ setSelectedPage }: Props) => {
       buttonLink: "/programs/seminar-vremen",
     },
     {
-      title: "Психологическая трансформационная игра \u00abДенежный город\u00bb",
+      title: "Денежный город",
       description:
         "Игра для самопознания, финансовой зрелости и улучшения денежного мышления. Доступна онлайн и офлайн.",
       buttonLabel: "Узнать подробнее",
-      buttonLink: "#", // Replace with specific link if available
+      buttonLink: "/programs/moneytown",
     },
     {
       title: "Денежный Сет",
       description:
         "Три нумерологических письменных расчёта: \u00abЦифровой Код\u00bb, \u00abДенежные Комбинации\u00bb, \u00abКод Успеха\u00bb. Получите персональные рекомендации и практики для улучшения финансового состояния.",
       buttonLabel: "Узнать подробнее",
-      buttonLink: "#", // Replace with specific link if available
+      buttonLink: "/programs/moneyset",
     },
   ];
 

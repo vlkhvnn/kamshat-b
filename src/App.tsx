@@ -5,6 +5,8 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import AppointmentPage from "./pages/Appointment";
 import MainPage from "./pages/Main";
 import ProgramsPage from "./pages/Programs";
+import MoneySetPage from "./pages/programs/MoneySetPage";
+import MoneyTownPage from "./pages/programs/MoneyTownPage";
 import SeminarPage from "./pages/programs/SeminarPage";
 
 function App() {
@@ -38,6 +40,8 @@ function App() {
           <Route path="/programs" element={<ProgramsPage setSelectedPage={setSelectedPage}/>} />
           <Route path="/appointment" element={<AppointmentPage setSelectedPage={setSelectedPage}/>} />
           <Route path="/programs/seminar-vremen" element={<SeminarPage />} />
+          <Route path="/programs/moneytown" element={<MoneyTownPage />} />
+          <Route path="/programs/moneyset" element={<MoneySetPage />} />
         </Routes>
       </div>
     </Router>

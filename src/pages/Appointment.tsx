@@ -82,7 +82,7 @@ const AppointmentPage = ({ setSelectedPage }: Props) => {
           </div>
 
           <div className="bg-white p-8 rounded-lg shadow-md border-l-4 border-primary-500">
-            <h3 className="text-2xl font-semibold mb-4">Психологическая/Арт-терапевтическая сессия</h3>
+            <h3 className="text-2xl font-semibold mb-4">Психологическая/арт-терапевтическая сессия</h3>
             <p className="text-xl font-semibold mt-4">Наиболее частые запросы Клиентов:</p>
             <ul className="list-disc mt-4 ml-4 text-gray-700 text-lg leading-relaxed space-y-4">
               {[
@@ -106,7 +106,7 @@ const AppointmentPage = ({ setSelectedPage }: Props) => {
               ))}
             </ul>
             <a
-            href="https://wa.me/77080546175?text=Хочу%20получить%психологическую/арт-терапевтическую%20сессию"
+            href="https://wa.me/77080546175?text=Хочу%20получить%20психологическую/арт-терапевтическую%20сессию"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-cream-100 drop-shadow mt-6 block w-full bg-primary-500 font-bold py-3 px-6 rounded-lg hover:bg-primary-300 transition text-center"
