@@ -23,7 +23,7 @@ const AppointmentPage = ({ setSelectedPage }: Props) => {
       };
 
   return (
-    <section id="appointment" className="w-full bg-gray-20 py-20">
+    <section id="appointment" className="w-full bg-gray-20 py-24">
       <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.Appointment)}
       >
@@ -38,14 +38,14 @@ const AppointmentPage = ({ setSelectedPage }: Props) => {
             visible: { opacity: 1, y: 0 },
           }}
         >
-          <HText>Виды консультаций</HText>
+          <HText>Виды консультации</HText>
         </motion.div>
 
         <div className="mt-10 mx-auto w-4/5 grid grid-cols-1 md:grid-cols-2 gap-10">
           <div className="bg-white p-8 rounded-lg shadow-md border-l-4 border-primary-500">
             <h3 className="text-2xl font-semibold mb-4">Нумерологическая сессия</h3>
-            <p className="text-gray-700 text-lg leading-relaxed ">
-              Нумерологический расчет производится исключительно по цифровым данным Клиента и оформленному запросу. За одну сессию (продолжительность – 50 минут) разбираю детально один запрос Клиента. Это поможет глубже понять проблематику, обозначить варианты решения задачи. Для закрепления результата по окончанию сессии на почту Клиента отправляется практики для самостоятельной работы.
+            <p className="text-gray-700 text-lg leading-relaxed text-justify">
+              Нумерологический расчет производится исключительно по цифровым данным Клиента и оформленному запросу. За одну сессию (продолжительность – 50 минут) разбираю детально один запрос Клиента. Это поможет глубже понять проблематику, обозначить варианты решения задачи. Для закрепления результата по окончанию сессии на почту Клиента отправляется практики для самостоятельной работы. Только онлайн, расчет производится исключительно по оформленному запросу Клиентам
             </p>
             <p className="text-xl font-semibold mt-4">Наиболее частые запросы на нумерологическую сессию:</p>
             <ul className="list-disc mt-4 ml-4 text-gray-700 text-lg leading-relaxed space-y-4">
@@ -75,9 +75,9 @@ const AppointmentPage = ({ setSelectedPage }: Props) => {
             href="https://wa.me/77080546175?text=Хочу%20получить%20нумерологическую%20сессию"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-cream-100 drop-shadow mt-6 inline-block bg-primary-500 font-bold py-3 px-6 rounded-lg hover:bg-primary-300 transition text-center"
+            className="bg-cream-100 drop-shadow mt-6 block w-full bg-primary-500 font-bold py-3 px-6 rounded-lg hover:bg-primary-300 transition text-center"
             >
-              Записаться на нумерологическую сессию (только онлайн, расчет производится исключительно по оформленному запросу Клиентам)
+              Записаться на нумерологическую сессию
             </a>
           </div>
 
@@ -109,9 +109,9 @@ const AppointmentPage = ({ setSelectedPage }: Props) => {
             href="https://wa.me/77080546175?text=Хочу%20получить%психологическую/арт-терапевтическую%20сессию"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-cream-100 drop-shadow mt-6 inline-block bg-primary-500 font-bold py-3 px-6 rounded-lg hover:bg-primary-300 transition"
+            className="bg-cream-100 drop-shadow mt-6 block w-full bg-primary-500 font-bold py-3 px-6 rounded-lg hover:bg-primary-300 transition text-center"
             >
-              Записаться на психологическую/арт-терапевтическую сессию (офлайн/онлайн)
+              Записаться на психологическую/арт-терапевтическую сессию
             </a>
           </div>
         </div>

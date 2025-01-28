@@ -1,12 +1,11 @@
-import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { SelectedPage } from "@/shared/types";
 import { useEffect, useState } from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import AppointmentPage from "./pages/Appointment";
-import BlogPage from "./pages/Blog";
 import MainPage from "./pages/Main";
 import ProgramsPage from "./pages/Programs";
+import SeminarPage from "./pages/programs/SeminarPage";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
@@ -38,9 +37,8 @@ function App() {
           <Route path="/" element={<MainPage setSelectedPage={setSelectedPage} />} />
           <Route path="/programs" element={<ProgramsPage setSelectedPage={setSelectedPage}/>} />
           <Route path="/appointment" element={<AppointmentPage setSelectedPage={setSelectedPage}/>} />
-          <Route path="/blog" element={<BlogPage setSelectedPage={setSelectedPage}/>} />
+          <Route path="/programs/seminar-vremen" element={<SeminarPage />} />
         </Routes>
-        <Footer />
       </div>
     </Router>
   );

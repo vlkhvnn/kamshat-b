@@ -11,7 +11,7 @@ const ProgramsPage = ({ setSelectedPage }: Props) => {
       title: "Времен связующая нить",
       description:"Совместный онлайн-семинар Людмилы Росоха и Камшат Болысбаевой 14 и 21 марта. Научитесь восстанавливать связь с родом и преодолевать внутренние барьеры",
       buttonLabel: "Узнать подробнее",
-      buttonLink: "https://rosoha.ru/vremen-svyazuyushchaya-nit",
+      buttonLink: "/programs/seminar-vremen",
     },
     {
       title: "Психологическая трансформационная игра \u00abДенежный город\u00bb",
@@ -59,13 +59,13 @@ const ProgramsPage = ({ setSelectedPage }: Props) => {
                 {program.description}
               </p>
               <a
-  href={program.buttonLink}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="inline-block bg-transparent font-bold py-1 px-4 border border-black hover:bg-primary-300 transition text-center"
->
-  {program.buttonLabel}
-</a>
+              href={program.buttonLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-transparent font-bold py-1 px-4 border border-black hover:bg-primary-300 transition text-center"
+              >
+                {program.buttonLabel}
+              </a>
             </motion.div>
           ))}
         </div>

@@ -38,25 +38,25 @@ const MainPage = ({ setSelectedPage }: Props) => {
             }}
           >
             <div className="relative">
-              <h1 className="text-4xl font-bold md:text-6xl">
+              <h1 className="text-4xl font-bold md:text-6xl text-justify">
                 Камшат Болысбаева
               </h1>
             </div>
 
-            <h2 className="mt-8 text-2xl md:text-2xl">
-              Психолог, Нумеролог
+            <h2 className="mt-8 text-2xl md:text-2xl text-justify">
+              психолог, нумеролог
             </h2>
-            <h2 className="mt-2 text-2xl md:text-2xl">
-              Арт-Терапевт, Игропрактик
+            <h2 className="mt-2 text-2xl md:text-2xl text-justify">
+              арт-Терапевт, игропрактик
             </h2>
           </motion.div>
 
           {/* WELCOME TEXT */}
           <motion.div
-            className="mt-8 mb-16 text-lg leading-8"
+            className="mt-8 mb-16 text-lg leading-8 text-justify"
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.5 }}
+            viewport={{ once: true, amount: 0.25 }}
             transition={{ delay: 0.3, duration: 0.5 }}
             variants={{
               hidden: { opacity: 0 },
@@ -70,17 +70,17 @@ const MainPage = ({ setSelectedPage }: Props) => {
               практики провожу психолого-нумерологические, арт-терапевтические
               сессии и трансформационные игры. Изучаю квантовую психологию,
               родологию, энергетику человека, ольфактотерапию, создаю свечные боксы.
-            </p>
+            </p><br></br>
             <p>
               В работе сочетаю психологию, нумерологию, арт-терапию, подбираю
               практики для самостоятельной работы на основе расчета цифровых данных.
               Помогаю Клиентам раскрыть свой внутренний потенциал, найти путь к
               самореализации, жить лучше и зарабатывать больше.
-            </p>
+            </p><br></br>
             <p>
               Моя цель в индивидуальных и групповых сессиях - помочь Клиенту
               глубже понять себя, преодолеть внутренние барьеры, достичь личных целей.
-            </p>
+            </p><br></br>
             <p>
               Здесь Вы найдете информацию о сессиях и играх. Анонсы игр, семинаров,
               групповых сессий дополнительно публикую в соцсетях.
