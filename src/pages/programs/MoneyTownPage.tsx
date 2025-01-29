@@ -19,7 +19,7 @@ const MoneyTownPage = ({}: Props) => {
         {/* Header Section */}
         <div className={`text-center mb-10 ${isAboveMediumScreens ? "" : "w-4/5 mx-auto"}`}>
           <h1 className={`${isAboveMediumScreens ? "text-4xl mb-12" : "text-xl mb-8"} font-bold mb-12`}>
-            Психологическая трансформационная игра «Денежный город».
+            Психологическая трансформационная игра «Денежный город»
           </h1>
           <p className={`${isAboveMediumScreens ? "text-xl" : ""} text-gray-700 leading-relaxed`}>
             Авторы игры – Михаил Лурко, Евгения Баксан

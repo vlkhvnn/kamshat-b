@@ -80,7 +80,6 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                       className="h-6 w-6 hover:opacity-80 transition"
                     />
                   </a>
-                  <span className="text-m">+7(702)-777-25-56</span>
                   <a href="mailto:kamshat@gmail.com" className="text-m">
                   kamshat@gmail.com
                   </a>
@@ -122,7 +121,6 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                     className="h-6 w-6 hover:opacity-80 transition"
                   />
                 </a>
-                <span className="text-m">+7(702)-777-25-56</span>
               </div>
               <button
                 className="absolute right-6 top-2 rounded-full p-4"
@@ -171,7 +169,6 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
               <a href="mailto:kamshat@gmail.com" className="text-lg">
                 kamshat@gmail.com
               </a>
-              <span className="text-lg">+7(702)-777-25-56</span>
               <div className="flex justify-center gap-8">
                 <a
                   href="https://instagram.com/kamshat"
