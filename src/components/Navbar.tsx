@@ -59,7 +59,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                     />
                   </a>
                   <a
-                    href="https://t.me/Kamshat_BZh"
+                    href="https://t.me/kamshat_bolysbayeva"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -101,7 +101,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                   />
                 </a>
                 <a
-                  href="https://t.me/Kamshat_BZh"
+                  href="https://t.me/kamshat_bolysbayeva"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -185,7 +185,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                   />
                 </a>
                 <a
-                  href="https://t.me/Kamshat_BZh"
+                  href="https://t.me/kamshat_bolysbayeva"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
