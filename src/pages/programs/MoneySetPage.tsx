@@ -49,7 +49,7 @@ const MoneySetPage = ({}: Props) => {
           </div>
         </div>
         <a
-        href="https://wa.me/77080546175?text=Хочу%20получить%20нумерологическую%20сессию"
+        href="https://wa.me/77080546175?text=Хочу%20заказать%20«Денежный%20Сет»"
         target="_blank"
         rel="noopener noreferrer"
         className={`bg-cream-100 drop-shadow mt-6 block w-full ${isAboveMediumScreens ? "text-xl py-8" : " py-4"} font-bold  px-6 rounded-lg hover:bg-primary-300 transition text-center`}
