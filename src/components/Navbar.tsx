@@ -80,9 +80,6 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                       className="h-6 w-6 hover:opacity-80 transition"
                     />
                   </a>
-                  <a href="mailto:info@kamshat.pro" className="text-m">
-                  info@kamshat.pro
-                  </a>
                 </div>
               </div>
             ) : (
@@ -166,9 +163,6 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
             </div>
             {/* SOCIAL ICONS */}
             <div className="flex flex-col items-center gap-4 mt-10 text-center">
-              <a href="mailto:info@kamshat.pro" className="text-lg">
-                info@kamshat.pro
-              </a>
               <div className="flex justify-center gap-8">
                 <a
                   href="https://instagram.com/kamshat"
